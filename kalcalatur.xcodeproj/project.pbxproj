@@ -1,0 +1,507 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7EE8EB6E1C46D86600789DEA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EE8EB6D1C46D86600789DEA /* AppDelegate.swift */; };
+		7EE8EB701C46D86600789DEA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EE8EB6F1C46D86600789DEA /* ViewController.swift */; };
+		7EE8EB731C46D86600789DEA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7EE8EB711C46D86600789DEA /* Main.storyboard */; };
+		7EE8EB751C46D86600789DEA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7EE8EB741C46D86600789DEA /* Assets.xcassets */; };
+		7EE8EB781C46D86600789DEA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7EE8EB761C46D86600789DEA /* LaunchScreen.storyboard */; };
+		7EE8EB831C46D86600789DEA /* kalcalaturTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EE8EB821C46D86600789DEA /* kalcalaturTests.swift */; };
+		7EE8EB8E1C46D86600789DEA /* kalcalaturUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EE8EB8D1C46D86600789DEA /* kalcalaturUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7EE8EB7F1C46D86600789DEA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7EE8EB621C46D86600789DEA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7EE8EB691C46D86600789DEA;
+			remoteInfo = kalcalatur;
+		};
+		7EE8EB8A1C46D86600789DEA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7EE8EB621C46D86600789DEA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7EE8EB691C46D86600789DEA;
+			remoteInfo = kalcalatur;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		7EE8EB6A1C46D86600789DEA /* kalcalatur.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = kalcalatur.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7EE8EB6D1C46D86600789DEA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		7EE8EB6F1C46D86600789DEA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		7EE8EB721C46D86600789DEA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7EE8EB741C46D86600789DEA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7EE8EB771C46D86600789DEA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7EE8EB791C46D86600789DEA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7EE8EB7E1C46D86600789DEA /* kalcalaturTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = kalcalaturTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7EE8EB821C46D86600789DEA /* kalcalaturTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = kalcalaturTests.swift; sourceTree = "<group>"; };
+		7EE8EB841C46D86600789DEA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7EE8EB891C46D86600789DEA /* kalcalaturUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = kalcalaturUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7EE8EB8D1C46D86600789DEA /* kalcalaturUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = kalcalaturUITests.swift; sourceTree = "<group>"; };
+		7EE8EB8F1C46D86600789DEA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7EE8EB671C46D86600789DEA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7EE8EB7B1C46D86600789DEA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7EE8EB861C46D86600789DEA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7EE8EB611C46D86600789DEA = {
+			isa = PBXGroup;
+			children = (
+				7EE8EB6C1C46D86600789DEA /* kalcalatur */,
+				7EE8EB811C46D86600789DEA /* kalcalaturTests */,
+				7EE8EB8C1C46D86600789DEA /* kalcalaturUITests */,
+				7EE8EB6B1C46D86600789DEA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7EE8EB6B1C46D86600789DEA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7EE8EB6A1C46D86600789DEA /* kalcalatur.app */,
+				7EE8EB7E1C46D86600789DEA /* kalcalaturTests.xctest */,
+				7EE8EB891C46D86600789DEA /* kalcalaturUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7EE8EB6C1C46D86600789DEA /* kalcalatur */ = {
+			isa = PBXGroup;
+			children = (
+				7EE8EB6D1C46D86600789DEA /* AppDelegate.swift */,
+				7EE8EB6F1C46D86600789DEA /* ViewController.swift */,
+				7EE8EB711C46D86600789DEA /* Main.storyboard */,
+				7EE8EB741C46D86600789DEA /* Assets.xcassets */,
+				7EE8EB761C46D86600789DEA /* LaunchScreen.storyboard */,
+				7EE8EB791C46D86600789DEA /* Info.plist */,
+			);
+			path = kalcalatur;
+			sourceTree = "<group>";
+		};
+		7EE8EB811C46D86600789DEA /* kalcalaturTests */ = {
+			isa = PBXGroup;
+			children = (
+				7EE8EB821C46D86600789DEA /* kalcalaturTests.swift */,
+				7EE8EB841C46D86600789DEA /* Info.plist */,
+			);
+			path = kalcalaturTests;
+			sourceTree = "<group>";
+		};
+		7EE8EB8C1C46D86600789DEA /* kalcalaturUITests */ = {
+			isa = PBXGroup;
+			children = (
+				7EE8EB8D1C46D86600789DEA /* kalcalaturUITests.swift */,
+				7EE8EB8F1C46D86600789DEA /* Info.plist */,
+			);
+			path = kalcalaturUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7EE8EB691C46D86600789DEA /* kalcalatur */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7EE8EB921C46D86600789DEA /* Build configuration list for PBXNativeTarget "kalcalatur" */;
+			buildPhases = (
+				7EE8EB661C46D86600789DEA /* Sources */,
+				7EE8EB671C46D86600789DEA /* Frameworks */,
+				7EE8EB681C46D86600789DEA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = kalcalatur;
+			productName = kalcalatur;
+			productReference = 7EE8EB6A1C46D86600789DEA /* kalcalatur.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7EE8EB7D1C46D86600789DEA /* kalcalaturTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7EE8EB951C46D86600789DEA /* Build configuration list for PBXNativeTarget "kalcalaturTests" */;
+			buildPhases = (
+				7EE8EB7A1C46D86600789DEA /* Sources */,
+				7EE8EB7B1C46D86600789DEA /* Frameworks */,
+				7EE8EB7C1C46D86600789DEA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7EE8EB801C46D86600789DEA /* PBXTargetDependency */,
+			);
+			name = kalcalaturTests;
+			productName = kalcalaturTests;
+			productReference = 7EE8EB7E1C46D86600789DEA /* kalcalaturTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		7EE8EB881C46D86600789DEA /* kalcalaturUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7EE8EB981C46D86600789DEA /* Build configuration list for PBXNativeTarget "kalcalaturUITests" */;
+			buildPhases = (
+				7EE8EB851C46D86600789DEA /* Sources */,
+				7EE8EB861C46D86600789DEA /* Frameworks */,
+				7EE8EB871C46D86600789DEA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7EE8EB8B1C46D86600789DEA /* PBXTargetDependency */,
+			);
+			name = kalcalaturUITests;
+			productName = kalcalaturUITests;
+			productReference = 7EE8EB891C46D86600789DEA /* kalcalaturUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7EE8EB621C46D86600789DEA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Hamilton Karl";
+				TargetAttributes = {
+					7EE8EB691C46D86600789DEA = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					7EE8EB7D1C46D86600789DEA = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 7EE8EB691C46D86600789DEA;
+					};
+					7EE8EB881C46D86600789DEA = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 7EE8EB691C46D86600789DEA;
+					};
+				};
+			};
+			buildConfigurationList = 7EE8EB651C46D86600789DEA /* Build configuration list for PBXProject "kalcalatur" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7EE8EB611C46D86600789DEA;
+			productRefGroup = 7EE8EB6B1C46D86600789DEA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7EE8EB691C46D86600789DEA /* kalcalatur */,
+				7EE8EB7D1C46D86600789DEA /* kalcalaturTests */,
+				7EE8EB881C46D86600789DEA /* kalcalaturUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7EE8EB681C46D86600789DEA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7EE8EB781C46D86600789DEA /* LaunchScreen.storyboard in Resources */,
+				7EE8EB751C46D86600789DEA /* Assets.xcassets in Resources */,
+				7EE8EB731C46D86600789DEA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7EE8EB7C1C46D86600789DEA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7EE8EB871C46D86600789DEA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7EE8EB661C46D86600789DEA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7EE8EB701C46D86600789DEA /* ViewController.swift in Sources */,
+				7EE8EB6E1C46D86600789DEA /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7EE8EB7A1C46D86600789DEA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7EE8EB831C46D86600789DEA /* kalcalaturTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7EE8EB851C46D86600789DEA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7EE8EB8E1C46D86600789DEA /* kalcalaturUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7EE8EB801C46D86600789DEA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7EE8EB691C46D86600789DEA /* kalcalatur */;
+			targetProxy = 7EE8EB7F1C46D86600789DEA /* PBXContainerItemProxy */;
+		};
+		7EE8EB8B1C46D86600789DEA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7EE8EB691C46D86600789DEA /* kalcalatur */;
+			targetProxy = 7EE8EB8A1C46D86600789DEA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		7EE8EB711C46D86600789DEA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7EE8EB721C46D86600789DEA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7EE8EB761C46D86600789DEA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7EE8EB771C46D86600789DEA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7EE8EB901C46D86600789DEA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7EE8EB911C46D86600789DEA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7EE8EB931C46D86600789DEA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = kalcalatur/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ox.kalcalatur;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		7EE8EB941C46D86600789DEA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = kalcalatur/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ox.kalcalatur;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		7EE8EB961C46D86600789DEA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = kalcalaturTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ox.kalcalaturTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/kalcalatur.app/kalcalatur";
+			};
+			name = Debug;
+		};
+		7EE8EB971C46D86600789DEA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = kalcalaturTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ox.kalcalaturTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/kalcalatur.app/kalcalatur";
+			};
+			name = Release;
+		};
+		7EE8EB991C46D86600789DEA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = kalcalaturUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ox.kalcalaturUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = kalcalatur;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		7EE8EB9A1C46D86600789DEA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = kalcalaturUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ox.kalcalaturUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = kalcalatur;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7EE8EB651C46D86600789DEA /* Build configuration list for PBXProject "kalcalatur" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7EE8EB901C46D86600789DEA /* Debug */,
+				7EE8EB911C46D86600789DEA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7EE8EB921C46D86600789DEA /* Build configuration list for PBXNativeTarget "kalcalatur" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7EE8EB931C46D86600789DEA /* Debug */,
+				7EE8EB941C46D86600789DEA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		7EE8EB951C46D86600789DEA /* Build configuration list for PBXNativeTarget "kalcalaturTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7EE8EB961C46D86600789DEA /* Debug */,
+				7EE8EB971C46D86600789DEA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		7EE8EB981C46D86600789DEA /* Build configuration list for PBXNativeTarget "kalcalaturUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7EE8EB991C46D86600789DEA /* Debug */,
+				7EE8EB9A1C46D86600789DEA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7EE8EB621C46D86600789DEA /* Project object */;
+}
